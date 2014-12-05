@@ -18,6 +18,9 @@
     <ClCompile Include="Mainfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="textfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReadIndexedFaceSet.h">
@@ -38,10 +41,21 @@
     <ClInclude Include="Subdivision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="textfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="mesh_I.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="minimal.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="minimal.vert">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

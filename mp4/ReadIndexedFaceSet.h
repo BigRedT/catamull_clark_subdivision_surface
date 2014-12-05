@@ -40,7 +40,7 @@ public:
 				f >> v.x;
 				f >> v.y;
 				f >> v.z;
-				std::cout << ++i << " " << tag << " " << v.x << " " << v.y << " " << v.z << std::endl;
+				//std::cout << ++i << " " << tag << " " << v.x << " " << v.y << " " << v.z << std::endl;
 				vertices.push_back(v);
 			}
 			else if (tag == 'f') {
@@ -53,7 +53,7 @@ public:
 				fa.idx2--;
 				fa.idx3--;
 				fa.idx4--;
-				std::cout << ++i << " " << tag << " " << fa.idx1 << " " << fa.idx2 << " " << fa.idx3 << " " << fa.idx4 << std::endl;
+				//std::cout << ++i << " " << tag << " " << fa.idx1 << " " << fa.idx2 << " " << fa.idx3 << " " << fa.idx4 << std::endl;
 				faces.push_back(fa);
 			}
 			else {
