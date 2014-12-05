@@ -234,7 +234,7 @@ void display() {
 	glLoadIdentity();
 	gluLookAt(eye.x, eye.y, eye.z, 0, 0, 0, 0, 1, 0);
 
-	GLfloat lpos[] = {2,0,2,1};
+	GLfloat lpos[] = {eye.x,eye.y,eye.z,1};
 	GLfloat white[] = { 1, 1, 1, 1 };
 
 	glLightfv(GL_LIGHT0, GL_POSITION, lpos);
@@ -329,7 +329,7 @@ int main(int argc, char **argv) {
 	}
 	init();
 
-	//setShaders();
+	setShaders();
 	
 	glutMainLoop();
 	
