@@ -302,6 +302,10 @@ void arrowKeys(int key, int x, int y)
 		t = t - 0.01;
 		bezier();
 		break;
+	case GLUT_KEY_DOWN:
+		if (dispMode == 0) { dispMode = 1; }
+		else { dispMode = 0; }
+		break;
 	case GLUT_KEY_F1:
 		exit(0);
 		break;
